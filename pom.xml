@@ -10,7 +10,7 @@
     <version>8.5</version>
 	<modules>
 		<module>apache-tomcat-8.5.73-src</module>
-        <module>01-servlet-container</module>
+        <module>servlet-specification-code-example</module>
     </modules>
 	
 </project>
