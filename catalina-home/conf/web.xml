@@ -118,6 +118,10 @@
             <param-value>0</param-value>
         </init-param>
         <init-param>
+            <param-name>fileEncoding</param-name>
+            <param-value>UTF-8</param-value>
+        </init-param>
+        <init-param>
             <param-name>listings</param-name>
             <param-value>false</param-value>
         </init-param>

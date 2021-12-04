@@ -10,5 +10,7 @@ public class HelloServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         System.out.println("Hello Servlet... ...");
+        resp.getWriter().println("Back,hello.");
+        resp.flushBuffer();
     }
 }
