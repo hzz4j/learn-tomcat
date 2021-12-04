@@ -65,3 +65,211 @@
 04-Dec-2021 09:43:10.662 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Github\learn-tomcat\catalina-home\webapps\ROOT]
 04-Dec-2021 09:43:10.784 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Github\learn-tomcat\catalina-home\webapps\ROOT] has finished in [122] ms
 04-Dec-2021 09:43:10.790 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2491 ms
+04-Dec-2021 09:49:47.543 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+04-Dec-2021 09:49:47.544 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+04-Dec-2021 09:49:47.564 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+04-Dec-2021 09:49:47.565 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+04-Dec-2021 09:50:05.654 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/@VERSION@
+04-Dec-2021 09:50:05.657 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          @VERSION_BUILT@
+04-Dec-2021 09:50:05.657 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: @VERSION_NUMBER@
+04-Dec-2021 09:50:05.657 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+04-Dec-2021 09:50:05.657 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+04-Dec-2021 09:50:05.657 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+04-Dec-2021 09:50:05.657 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             E:\jdk-8\jre
+04-Dec-2021 09:50:05.657 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_301-b09
+04-Dec-2021 09:50:05.657 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+04-Dec-2021 09:50:05.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Github\learn-tomcat\catalina-home
+04-Dec-2021 09:50:05.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Github\learn-tomcat\catalina-home
+04-Dec-2021 09:50:05.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=catalina-home
+04-Dec-2021 09:50:05.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=catalina-home
+04-Dec-2021 09:50:05.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=catalina-home/endorsed
+04-Dec-2021 09:50:05.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=catalina-home/temp
+04-Dec-2021 09:50:05.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Dec-2021 09:50:05.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=catalina-home/conf/logging.properties
+04-Dec-2021 09:50:05.659 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Duser.language=
+04-Dec-2021 09:50:05.659 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:E:\IntelliJ IDEA 2021.2.2\lib\idea_rt.jar=5633:E:\IntelliJ IDEA 2021.2.2\bin
+04-Dec-2021 09:50:05.659 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+04-Dec-2021 09:50:05.659 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [E:\jdk-8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\11930\AppData\Roaming\Python\Python36\Scripts;E:\Python\Python36\Scripts\;E:\Python\Python36\;E:\VMware Workstation\bin\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;E:\Git\cmd;E:\jdk-8\bin;E:\maven-3.8.2\bin;E:\XShell 7\;E:\XFtp 7\;E:\nodejs\;C:\Program Files\dotnet\;E:\jdk-8\lib;E:\apache-ant\apache-ant-1.10.12\bin;E:\scala\bin;E:\Git\bin;C:\Users\11930\AppData\Local\Microsoft\WindowsApps;C:\Users\11930\AppData\Local\GitHubDesktop\bin;E:\Microsoft VS Code\bin;E:\nodejs\node_global;;.]
+04-Dec-2021 09:50:05.794 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+04-Dec-2021 09:50:05.810 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1077)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:552)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:843)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:639)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:305)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.net.BindException: Address already in use: bind
+		at sun.nio.ch.Net.bind0(Native Method)
+		at sun.nio.ch.Net.bind(Net.java:438)
+		at sun.nio.ch.Net.bind(Net.java:430)
+		at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225)
+		at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:221)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1161)
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:222)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:599)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:80)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1074)
+		... 12 more
+04-Dec-2021 09:50:05.812 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 558 ms
+04-Dec-2021 09:50:05.884 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-Dec-2021 09:50:05.885 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/@VERSION@]
+04-Dec-2021 09:50:05.902 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Github\learn-tomcat\catalina-home\webapps\docs]
+04-Dec-2021 09:50:07.067 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [824] milliseconds.
+04-Dec-2021 09:50:07.088 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Github\learn-tomcat\catalina-home\webapps\docs] has finished in [1,185] ms
+04-Dec-2021 09:50:07.088 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Github\learn-tomcat\catalina-home\webapps\examples]
+04-Dec-2021 09:50:07.211 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+04-Dec-2021 09:50:07.212 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/examples] startup failed due to previous errors
+04-Dec-2021 09:50:07.220 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Github\learn-tomcat\catalina-home\webapps\examples] has finished in [132] ms
+04-Dec-2021 09:50:07.220 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Github\learn-tomcat\catalina-home\webapps\host-manager]
+04-Dec-2021 09:50:07.292 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Github\learn-tomcat\catalina-home\webapps\host-manager] has finished in [71] ms
+04-Dec-2021 09:50:07.292 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Github\learn-tomcat\catalina-home\webapps\manager]
+04-Dec-2021 09:50:07.377 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Github\learn-tomcat\catalina-home\webapps\manager] has finished in [85] ms
+04-Dec-2021 09:50:07.377 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Github\learn-tomcat\catalina-home\webapps\ROOT]
+04-Dec-2021 09:50:07.476 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Github\learn-tomcat\catalina-home\webapps\ROOT] has finished in [99] ms
+04-Dec-2021 09:50:07.479 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1667 ms
+04-Dec-2021 09:50:45.375 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+04-Dec-2021 09:50:45.375 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+04-Dec-2021 09:50:45.386 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+04-Dec-2021 09:50:45.387 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+04-Dec-2021 09:50:47.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/@VERSION@
+04-Dec-2021 09:50:47.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          @VERSION_BUILT@
+04-Dec-2021 09:50:47.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: @VERSION_NUMBER@
+04-Dec-2021 09:50:47.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+04-Dec-2021 09:50:47.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+04-Dec-2021 09:50:47.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+04-Dec-2021 09:50:47.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             E:\jdk-8\jre
+04-Dec-2021 09:50:47.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_301-b09
+04-Dec-2021 09:50:47.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+04-Dec-2021 09:50:47.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Github\learn-tomcat\catalina-home
+04-Dec-2021 09:50:47.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Github\learn-tomcat\catalina-home
+04-Dec-2021 09:50:47.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=catalina-home
+04-Dec-2021 09:50:47.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=catalina-home
+04-Dec-2021 09:50:47.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=catalina-home/endorsed
+04-Dec-2021 09:50:47.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=catalina-home/temp
+04-Dec-2021 09:50:47.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Dec-2021 09:50:47.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=catalina-home/conf/logging.properties
+04-Dec-2021 09:50:47.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Duser.language=
+04-Dec-2021 09:50:47.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:E:\IntelliJ IDEA 2021.2.2\lib\idea_rt.jar=5667:E:\IntelliJ IDEA 2021.2.2\bin
+04-Dec-2021 09:50:47.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+04-Dec-2021 09:50:47.684 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [E:\jdk-8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\11930\AppData\Roaming\Python\Python36\Scripts;E:\Python\Python36\Scripts\;E:\Python\Python36\;E:\VMware Workstation\bin\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;E:\Git\cmd;E:\jdk-8\bin;E:\maven-3.8.2\bin;E:\XShell 7\;E:\XFtp 7\;E:\nodejs\;C:\Program Files\dotnet\;E:\jdk-8\lib;E:\apache-ant\apache-ant-1.10.12\bin;E:\scala\bin;E:\Git\bin;C:\Users\11930\AppData\Local\Microsoft\WindowsApps;C:\Users\11930\AppData\Local\GitHubDesktop\bin;E:\Microsoft VS Code\bin;E:\nodejs\node_global;;.]
+04-Dec-2021 09:50:47.809 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+04-Dec-2021 09:50:48.725 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+04-Dec-2021 09:50:48.741 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1447 ms
+04-Dec-2021 09:50:48.840 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-Dec-2021 09:50:48.840 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/@VERSION@]
+04-Dec-2021 09:50:48.850 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Github\learn-tomcat\catalina-home\webapps\docs]
+04-Dec-2021 09:50:49.253 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Github\learn-tomcat\catalina-home\webapps\docs] has finished in [403] ms
+04-Dec-2021 09:50:49.253 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Github\learn-tomcat\catalina-home\webapps\examples]
+04-Dec-2021 09:50:49.366 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+04-Dec-2021 09:50:49.366 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/examples] startup failed due to previous errors
+04-Dec-2021 09:50:49.375 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Github\learn-tomcat\catalina-home\webapps\examples] has finished in [122] ms
+04-Dec-2021 09:50:49.375 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Github\learn-tomcat\catalina-home\webapps\host-manager]
+04-Dec-2021 09:50:49.455 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Github\learn-tomcat\catalina-home\webapps\host-manager] has finished in [80] ms
+04-Dec-2021 09:50:49.455 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Github\learn-tomcat\catalina-home\webapps\manager]
+04-Dec-2021 09:50:49.533 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Github\learn-tomcat\catalina-home\webapps\manager] has finished in [78] ms
+04-Dec-2021 09:50:49.533 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Github\learn-tomcat\catalina-home\webapps\ROOT]
+04-Dec-2021 09:50:49.620 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Github\learn-tomcat\catalina-home\webapps\ROOT] has finished in [87] ms
+04-Dec-2021 09:50:49.623 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+04-Dec-2021 09:50:49.631 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 889 ms
+04-Dec-2021 09:52:27.228 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+04-Dec-2021 09:52:27.926 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+04-Dec-2021 09:52:27.936 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+04-Dec-2021 09:52:27.940 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+04-Dec-2021 09:52:32.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/@VERSION@
+04-Dec-2021 09:52:32.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          @VERSION_BUILT@
+04-Dec-2021 09:52:32.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: @VERSION_NUMBER@
+04-Dec-2021 09:52:32.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+04-Dec-2021 09:52:32.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+04-Dec-2021 09:52:32.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+04-Dec-2021 09:52:32.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             E:\jdk-8\jre
+04-Dec-2021 09:52:32.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_301-b09
+04-Dec-2021 09:52:32.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+04-Dec-2021 09:52:32.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Github\learn-tomcat\catalina-home
+04-Dec-2021 09:52:32.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Github\learn-tomcat\catalina-home
+04-Dec-2021 09:52:32.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=catalina-home
+04-Dec-2021 09:52:32.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=catalina-home
+04-Dec-2021 09:52:32.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=catalina-home/endorsed
+04-Dec-2021 09:52:32.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=catalina-home/temp
+04-Dec-2021 09:52:32.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Dec-2021 09:52:32.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=catalina-home/conf/logging.properties
+04-Dec-2021 09:52:32.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Duser.language=
+04-Dec-2021 09:52:32.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:E:\IntelliJ IDEA 2021.2.2\lib\idea_rt.jar=5786:E:\IntelliJ IDEA 2021.2.2\bin
+04-Dec-2021 09:52:32.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+04-Dec-2021 09:52:32.536 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [E:\jdk-8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\11930\AppData\Roaming\Python\Python36\Scripts;E:\Python\Python36\Scripts\;E:\Python\Python36\;E:\VMware Workstation\bin\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;E:\Git\cmd;E:\jdk-8\bin;E:\maven-3.8.2\bin;E:\XShell 7\;E:\XFtp 7\;E:\nodejs\;C:\Program Files\dotnet\;E:\jdk-8\lib;E:\apache-ant\apache-ant-1.10.12\bin;E:\scala\bin;E:\Git\bin;C:\Users\11930\AppData\Local\Microsoft\WindowsApps;C:\Users\11930\AppData\Local\GitHubDesktop\bin;E:\Microsoft VS Code\bin;E:\nodejs\node_global;;.]
+04-Dec-2021 09:52:32.666 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8088"]
+04-Dec-2021 09:52:33.625 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+04-Dec-2021 09:52:33.636 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1488 ms
+04-Dec-2021 09:52:33.710 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-Dec-2021 09:52:33.711 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/@VERSION@]
+04-Dec-2021 09:52:33.721 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Github\learn-tomcat\catalina-home\webapps\docs]
+04-Dec-2021 09:52:34.069 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Github\learn-tomcat\catalina-home\webapps\docs] has finished in [348] ms
+04-Dec-2021 09:52:34.069 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Github\learn-tomcat\catalina-home\webapps\examples]
+04-Dec-2021 09:52:34.201 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+04-Dec-2021 09:52:34.201 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/examples] startup failed due to previous errors
+04-Dec-2021 09:52:34.208 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Github\learn-tomcat\catalina-home\webapps\examples] has finished in [139] ms
+04-Dec-2021 09:52:34.208 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Github\learn-tomcat\catalina-home\webapps\host-manager]
+04-Dec-2021 09:52:34.297 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Github\learn-tomcat\catalina-home\webapps\host-manager] has finished in [88] ms
+04-Dec-2021 09:52:34.297 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Github\learn-tomcat\catalina-home\webapps\manager]
+04-Dec-2021 09:52:34.381 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Github\learn-tomcat\catalina-home\webapps\manager] has finished in [84] ms
+04-Dec-2021 09:52:34.381 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Github\learn-tomcat\catalina-home\webapps\ROOT]
+04-Dec-2021 09:52:34.464 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Github\learn-tomcat\catalina-home\webapps\ROOT] has finished in [83] ms
+04-Dec-2021 09:52:34.467 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8088"]
+04-Dec-2021 09:52:34.477 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 840 ms
+04-Dec-2021 09:54:17.013 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8088"]
+04-Dec-2021 09:54:17.706 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+04-Dec-2021 09:54:17.718 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8088"]
+04-Dec-2021 09:54:17.721 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8088"]
+04-Dec-2021 09:55:32.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/@VERSION@
+04-Dec-2021 09:55:32.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          @VERSION_BUILT@
+04-Dec-2021 09:55:32.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: @VERSION_NUMBER@
+04-Dec-2021 09:55:32.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+04-Dec-2021 09:55:32.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+04-Dec-2021 09:55:32.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+04-Dec-2021 09:55:32.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             E:\jdk-8\jre
+04-Dec-2021 09:55:32.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_301-b09
+04-Dec-2021 09:55:32.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+04-Dec-2021 09:55:32.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Github\learn-tomcat\catalina-home
+04-Dec-2021 09:55:32.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Github\learn-tomcat\catalina-home
+04-Dec-2021 09:55:32.987 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=catalina-home
+04-Dec-2021 09:55:32.987 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=catalina-home
+04-Dec-2021 09:55:32.987 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=catalina-home/endorsed
+04-Dec-2021 09:55:32.987 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=catalina-home/temp
+04-Dec-2021 09:55:32.987 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Dec-2021 09:55:32.987 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=catalina-home/conf/logging.properties
+04-Dec-2021 09:55:32.987 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Duser.language=
+04-Dec-2021 09:55:32.987 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:E:\IntelliJ IDEA 2021.2.2\lib\idea_rt.jar=5992:E:\IntelliJ IDEA 2021.2.2\bin
+04-Dec-2021 09:55:32.988 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+04-Dec-2021 09:55:32.988 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [E:\jdk-8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\11930\AppData\Roaming\Python\Python36\Scripts;E:\Python\Python36\Scripts\;E:\Python\Python36\;E:\VMware Workstation\bin\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;E:\Git\cmd;E:\jdk-8\bin;E:\maven-3.8.2\bin;E:\XShell 7\;E:\XFtp 7\;E:\nodejs\;C:\Program Files\dotnet\;E:\jdk-8\lib;E:\apache-ant\apache-ant-1.10.12\bin;E:\scala\bin;E:\Git\bin;C:\Users\11930\AppData\Local\Microsoft\WindowsApps;C:\Users\11930\AppData\Local\GitHubDesktop\bin;E:\Microsoft VS Code\bin;E:\nodejs\node_global;;.]
+04-Dec-2021 09:55:33.117 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8088"]
+04-Dec-2021 09:55:34.064 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+04-Dec-2021 09:55:34.077 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1573 ms
+04-Dec-2021 09:55:34.159 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-Dec-2021 09:55:34.159 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/@VERSION@]
+04-Dec-2021 09:55:34.172 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Github\learn-tomcat\catalina-home\webapps\docs]
+04-Dec-2021 09:55:34.630 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Dec-2021 09:55:34.660 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Github\learn-tomcat\catalina-home\webapps\docs] has finished in [487] ms
+04-Dec-2021 09:55:34.660 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Github\learn-tomcat\catalina-home\webapps\examples]
+04-Dec-2021 09:55:35.038 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Dec-2021 09:55:35.060 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+04-Dec-2021 09:55:35.060 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/examples] startup failed due to previous errors
+04-Dec-2021 09:55:35.068 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Github\learn-tomcat\catalina-home\webapps\examples] has finished in [408] ms
+04-Dec-2021 09:55:35.068 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Github\learn-tomcat\catalina-home\webapps\host-manager]
+04-Dec-2021 09:55:35.229 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Dec-2021 09:55:35.238 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Github\learn-tomcat\catalina-home\webapps\host-manager] has finished in [170] ms
+04-Dec-2021 09:55:35.238 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Github\learn-tomcat\catalina-home\webapps\manager]
+04-Dec-2021 09:55:35.368 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Dec-2021 09:55:35.371 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Github\learn-tomcat\catalina-home\webapps\manager] has finished in [133] ms
+04-Dec-2021 09:55:35.371 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Github\learn-tomcat\catalina-home\webapps\ROOT]
+04-Dec-2021 09:55:35.460 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Dec-2021 09:55:35.462 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Github\learn-tomcat\catalina-home\webapps\ROOT] has finished in [90] ms
+04-Dec-2021 09:55:35.464 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8088"]
+04-Dec-2021 09:55:35.472 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1394 ms
