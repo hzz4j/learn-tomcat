@@ -273,3 +273,56 @@
 04-Dec-2021 09:55:35.462 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Github\learn-tomcat\catalina-home\webapps\ROOT] has finished in [90] ms
 04-Dec-2021 09:55:35.464 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8088"]
 04-Dec-2021 09:55:35.472 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1394 ms
+04-Dec-2021 10:03:20.724 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8088"]
+04-Dec-2021 10:03:21.420 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+04-Dec-2021 10:03:21.436 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8088"]
+04-Dec-2021 10:03:21.440 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8088"]
+04-Dec-2021 10:49:50.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/@VERSION@
+04-Dec-2021 10:49:50.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          @VERSION_BUILT@
+04-Dec-2021 10:49:50.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: @VERSION_NUMBER@
+04-Dec-2021 10:49:50.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+04-Dec-2021 10:49:50.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+04-Dec-2021 10:49:50.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+04-Dec-2021 10:49:50.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             E:\jdk-8\jre
+04-Dec-2021 10:49:50.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_301-b09
+04-Dec-2021 10:49:50.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+04-Dec-2021 10:49:50.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Github\learn-tomcat\catalina-home
+04-Dec-2021 10:49:50.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Github\learn-tomcat\catalina-home
+04-Dec-2021 10:49:50.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=catalina-home
+04-Dec-2021 10:49:50.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=catalina-home
+04-Dec-2021 10:49:50.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=catalina-home/endorsed
+04-Dec-2021 10:49:50.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=catalina-home/temp
+04-Dec-2021 10:49:50.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Dec-2021 10:49:50.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=catalina-home/conf/logging.properties
+04-Dec-2021 10:49:50.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Duser.language=
+04-Dec-2021 10:49:50.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:E:\IntelliJ IDEA 2021.2.2\lib\idea_rt.jar=6292:E:\IntelliJ IDEA 2021.2.2\bin
+04-Dec-2021 10:49:50.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+04-Dec-2021 10:49:50.922 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [E:\jdk-8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\11930\AppData\Roaming\Python\Python36\Scripts;E:\Python\Python36\Scripts\;E:\Python\Python36\;E:\VMware Workstation\bin\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;E:\Git\cmd;E:\jdk-8\bin;E:\maven-3.8.2\bin;E:\XShell 7\;E:\XFtp 7\;E:\nodejs\;C:\Program Files\dotnet\;E:\jdk-8\lib;E:\apache-ant\apache-ant-1.10.12\bin;E:\scala\bin;E:\Git\bin;C:\Users\11930\AppData\Local\Microsoft\WindowsApps;C:\Users\11930\AppData\Local\GitHubDesktop\bin;E:\Microsoft VS Code\bin;E:\nodejs\node_global;;.]
+04-Dec-2021 10:49:51.585 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8088"]
+04-Dec-2021 10:49:52.158 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+04-Dec-2021 10:49:52.166 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1911 ms
+04-Dec-2021 10:49:52.310 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-Dec-2021 10:49:52.311 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/@VERSION@]
+04-Dec-2021 10:49:52.318 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Github\learn-tomcat\catalina-home\webapps\docs]
+04-Dec-2021 10:49:52.670 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Dec-2021 10:49:52.691 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Github\learn-tomcat\catalina-home\webapps\docs] has finished in [372] ms
+04-Dec-2021 10:49:52.691 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Github\learn-tomcat\catalina-home\webapps\examples]
+04-Dec-2021 10:49:52.951 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Dec-2021 10:49:52.965 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+04-Dec-2021 10:49:52.966 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/examples] startup failed due to previous errors
+04-Dec-2021 10:49:53.015 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Github\learn-tomcat\catalina-home\webapps\examples] has finished in [324] ms
+04-Dec-2021 10:49:53.015 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Github\learn-tomcat\catalina-home\webapps\host-manager]
+04-Dec-2021 10:49:53.114 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Dec-2021 10:49:53.121 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Github\learn-tomcat\catalina-home\webapps\host-manager] has finished in [105] ms
+04-Dec-2021 10:49:53.121 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Github\learn-tomcat\catalina-home\webapps\manager]
+04-Dec-2021 10:49:53.253 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Dec-2021 10:49:53.255 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Github\learn-tomcat\catalina-home\webapps\manager] has finished in [133] ms
+04-Dec-2021 10:49:53.255 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Github\learn-tomcat\catalina-home\webapps\ROOT]
+04-Dec-2021 10:49:53.351 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Dec-2021 10:49:53.352 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Github\learn-tomcat\catalina-home\webapps\ROOT] has finished in [97] ms
+04-Dec-2021 10:49:53.354 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8088"]
+04-Dec-2021 10:49:53.364 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1198 ms
+04-Dec-2021 10:57:47.287 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8088"]
+04-Dec-2021 10:57:47.800 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+04-Dec-2021 10:57:47.808 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8088"]
+04-Dec-2021 10:57:47.811 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8088"]
