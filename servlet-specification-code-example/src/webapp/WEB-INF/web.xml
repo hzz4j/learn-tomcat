@@ -7,8 +7,16 @@
         <servlet-name>Hello</servlet-name>
         <servlet-class>org.hzz.HelloServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>fileUpload</servlet-name>
+        <servlet-class>org.hzz.FileUpload</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Hello</servlet-name>
         <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>fileUpload</servlet-name>
+        <url-pattern>/fileUpload</url-pattern>
     </servlet-mapping>
 </web-app>
