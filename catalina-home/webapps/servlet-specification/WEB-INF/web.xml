@@ -5,11 +5,11 @@
          version="3.1">
     <servlet>
         <servlet-name>Hello</servlet-name>
-        <servlet-class>org.hzz.HelloServlet</servlet-class>
+        <servlet-class>org.hzz.request.HelloServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>fileUpload</servlet-name>
-        <servlet-class>org.hzz.FileUpload</servlet-class>
+        <servlet-class>org.hzz.request.FileUpload</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>Hello</servlet-name>

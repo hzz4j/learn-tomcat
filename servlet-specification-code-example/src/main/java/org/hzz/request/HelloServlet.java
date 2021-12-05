@@ -1,4 +1,4 @@
-package org.hzz;
+package org.hzz.request;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
