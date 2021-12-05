@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Collection;
 
-@MultipartConfig
+@MultipartConfig(location = "D:\\Github\\learn-tomcat")
 public class FileUpload extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -27,6 +27,7 @@ public class FileUpload extends HttpServlet {
             byte[] bytes = new byte[1024];
             while((read = is.read(bytes)) != -1){
                 outputStream.write(bytes,0,read);
+                System.out.println("写入"+read);
             }
             System.out.println("===============next part====================");
         }
