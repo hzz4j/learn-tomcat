@@ -6,7 +6,7 @@ tomcat源码分析
 主要参考
 
 - [JAVA™ Servlet规范(](https://jcp.org/aboutJava/communityprocess/final/jsr340/index.html)
-- [[O'Reilly Head First Servlets and JSP (2nd Edition).pdf](https://github.com/Q10Viking/learn-tomcat/blob/main/servlet-documents/O'Reilly Head First Servlets and JSP (2nd Edition).pdf) ]
+- [O'Reilly Head First Servlets and JSP (2nd Edition).pdf](https://github.com/Q10Viking/learn-tomcat/blob/main/servlet-documents/O'Reilly%20Head%20First%20Servlets%20and%20JSP%20(2nd%20Edition).pdf) 
 
 
 
