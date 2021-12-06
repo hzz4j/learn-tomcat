@@ -10,6 +10,7 @@
     <version>7.0</version>
 	<modules>
 		<module>tomcat-7.0.109-src</module>
+        <module>servlet-demo</module>
     </modules>
 	
 </project>

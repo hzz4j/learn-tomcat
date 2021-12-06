@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="servlet-demo">
+    <output-path>$PROJECT_DIR$/catalina-home/webapps/servlet-demo</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="servlet-demo" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="servlet-demo/web/Web" />
+    </root>
+  </artifact>
+</component>
