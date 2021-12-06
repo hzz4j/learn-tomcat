@@ -9,17 +9,16 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Enumeration;
 
-@WebServlet("/servletContext/test1")
-public class ServletContextTest1 extends HttpServlet {
+@WebServlet("/servletContext/test2")
+public class ServletContextTest2 extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         ServletContext servletContext = req.getServletContext();
-        Enumeration<String> initParameterNames = servletContext.getInitParameterNames();
-        while(initParameterNames.hasMoreElements()){
-            String name = initParameterNames.nextElement();
-            System.out.println(name + " = " + servletContext.getInitParameter(name));
+        
+        Enumeration<String> attributeNames = servletContext.getAttributeNames();
+        while(attributeNames.hasMoreElements()){
+            String name = attributeNames.nextElement();
+            System.out.println(name + " = " + servletContext.getAttribute(name));
         }
-
-        servletContext.setAttribute("attr","Servlet Attr test");
     }
 }
