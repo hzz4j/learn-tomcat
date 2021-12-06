@@ -27,7 +27,7 @@ mvn.properties
 .checkstyle
 .classpath
 .fbprefs
-.idea
+../.idea
 .project
 .settings
 .vscode
