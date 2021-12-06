@@ -11,5 +11,6 @@
 	<modules>
 		<module>apache-tomcat-8.5.73-src</module>
         <module>servlet-specification-code-example</module>
+        <module>network-demo</module>
     </modules>
 </project>
