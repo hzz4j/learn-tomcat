@@ -11,6 +11,7 @@
 	<modules>
 		<module>tomcat-7.0.109-src</module>
         <module>servlet-demo</module>
+        <module>network-demo</module>
     </modules>
 	
 </project>

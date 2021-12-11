@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/learn-tomcat.iml" filepath="$PROJECT_DIR$/.idea/learn-tomcat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/network-demo/network-demo.iml" filepath="$PROJECT_DIR$/network-demo/network-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/servlet-demo/servlet-demo.iml" filepath="$PROJECT_DIR$/servlet-demo/servlet-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/tomcat-7.0.109-src/tomcat-7.0.109-src.iml" filepath="$PROJECT_DIR$/tomcat-7.0.109-src/tomcat-7.0.109-src.iml" />
     </modules>
