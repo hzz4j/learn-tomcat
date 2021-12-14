@@ -122,6 +122,10 @@ grant codeBase "file:${catalina.home}/lib/-" {
 // In addition, a web application will be given a read FilePermission
 // and JndiPermission for all files and directories in its document root.
 grant {
+    // ===========idea=====================
+    // Grant everyone all permissions:
+    permission java.security.AllPermission;
+    //====================================
     // Required for JNDI lookup of named JDBC DataSource's and
     // javamail named MimePart DataSource used to send mail
     permission java.util.PropertyPermission "java.home", "read";
@@ -151,6 +155,7 @@ grant {
     permission java.util.PropertyPermission "java.vm.version", "read";
     permission java.util.PropertyPermission "java.vm.vendor", "read";
     permission java.util.PropertyPermission "java.vm.name", "read";
+
 
     // Required for OpenJMX
     permission java.lang.RuntimePermission "getAttribute";

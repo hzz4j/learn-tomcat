@@ -197,9 +197,15 @@ public final class Bootstrap {
         // Load our startup class and call its process() method
         if (log.isDebugEnabled())
             log.debug("Loading startup class");
+        // 发布版的tomcat它的类分开了分别放在lib目录下，值留Bootstrap在bin目录
         Class<?> startupClass =
             catalinaLoader.loadClass
             ("org.apache.catalina.startup.Catalina");
+        // ================测试自己的类====================================
+        Class<?> aClass = catalinaLoader.loadClass("org.hzz.MyTest");
+        ClassLoader classLoader = aClass.getClassLoader();
+        Object o = aClass.newInstance();
+        //===============================================================
         Object startupInstance = startupClass.newInstance();
 
         // Set the shared extensions class loader
